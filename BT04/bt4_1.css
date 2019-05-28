@@ -125,13 +125,14 @@ img:hover {
 	width: 200px;
 	height: 40px;
 	color: white;
-	background-color: transparent;
+	background-color: gray;
 	border-bottom: 1px solid transparent;
 	border-bottom-left-radius: 20px;
 	border-bottom-right-radius: 20px;
 	position: absolute;
 	z-index: 20;
 	top: 260px;
+	opacity: 0.5;
 }
 #footer {
 	width: 100%;
