@@ -1,42 +1,144 @@
 #header {
 	width: 100%;
-	height: 100px;
-	background-color: pink;
+	height: 200px;
+	background-color: white;
+}
+#header ul {
+	width: 100%;
+	margin-left: 10%;
+}
+#header li {
+	list-style: none;
+	width: 15%;
+	margin-top: 50px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	display: inline;
+	float: left;
+}
+#logo {
+	border: none !important;
+	margin-top: 30px !important;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	color: red;
 }
 #mainbar {
 	width: 100%;
-	height: 500px;
+	height: 750px;
 	background-color: gray;
+}
+#tieude {
+	text-align: center;
+}
+#mainbar li {
+	list-style: none;
+}
+#mainbar h2 h3 {
+	color: blue;
 }
 .maincontent {
 	width: 30%;
-	height: 100px;
-	background-color: orange;
+	height: 260px;
+	background-color: white;
 	margin-left: 2%;
 	margin-bottom: 10px;
 	display: inline-block;
 	float: left;
 }
+.maincontent img {
+	width: 100%;
+	height: 50%;
+}
+.maincontent a {
+	color: blue;
+}
+.maincontent a:hover {
+	color: red;
+}
+#phude {
+	text-align: center;
+}
+.blank {
+	clear: both;
+}
 #sidebar {
 	width: 100%;
 	height: 200px;
-	background-color: yellow;
+	background-color: white;
+}
+#sidebar li {
+	list-style: none;
+}
+#sidebar a {
+	text-decoration: none;
+	color: blue;
+}
+#sidebar a:hover {
+	color: red;
+}
+#sidebar1 {
+	width: 60%;
+	height: 200px;
+	background-color: white;
+	display: inline-block;
+	float: left;
+}
+#sidebar2 {
+	width: 40%;
+	height: 200px;
+	background-color: white;
+	display: inline-block;
 }
 #footer {
 	width: 100%;
-	height: 300px;
+	height: 330px;
+	color: white;
 	background-color: blue;
 }
+#footer li {
+	list-style: none;
+}
+#footer button {
+	background-color: green;
+}
+/*#footer textarea {
+	name:textarea;
+	rows: 50;
+	cols: 50;
+}*/
 @media screen and (min-width: 701px) and (max-width: 960px) {
 	
 }
 @media screen and (min-width: 481px) and (max-width: 700px) {
+	#mainbar {
+		height: 1100px;
+	}
 	.maincontent {
 		width: 40%;
 		margin-left: 5%;
 	}
+	#sidebar {
+		height: 400px;
+	}
+	#sidebar1 {
+		width: 100%;
+	}
+	#sidebar2 {
+		width: 100%;
+	}
 }
 @media screen and (max-width: 480px) {
+	#header  {
+		display: none;
+	}
+	#mainbar {
+		height: 1900px;
+	}
 	.maincontent {
 		width: 95%;
 	}
