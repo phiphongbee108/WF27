@@ -262,11 +262,61 @@ a:hover {
 #botfootb a:hover {
 	color: red;
 }
-@media screen and (min-width: 701px) and (max-width: 960px) {
+@media screen and (min-width: 769px) and (max-width: 1326px) {
 	
 }
-@media screen and (min-width: 481px) and (max-width: 700px;) {
-	#header {
-		background-color: red;
+@media screen and (min-width: 481px) and (max-width: 768px;) {
+	
+}
+@media screen and (max-width: 480px) {
+	#topheader {
+		display: none;
 	}
+	.icontopmainbar {
+		width: 77%;
+		left: 10%;
+	}
+	#mainbar {
+		height: 2450px;
+	}
+	.imgmidmainbar {
+		width: 100%;
+		margin-top: 0;
+	}
+	.contentmidmainbar {
+		width: 100%;
+	}
+	#midmainbar {
+		height: 1250px;
+	}
+	#botmainbar1 {
+		left: 5%;
+	}
+	#botmainbar2 {
+		left: 5%;
+	}
+	#botmainbar3 {
+		left: 20%;
+	}
+	.side {
+		width: 90%;
+	}
+	#sidebar {
+		margin-top: 0;
+		height: 1400px;
+	}
+	.foot {
+		width: 90%;
+		margin-left: 5%;
+	}
+	#footer {
+		height: 1500px;
+	}
+	#botfoot {
+		height: 100px;
+	}
+	#botfootb {
+		top: 50px;
+		left: 0;
+	}	
 }
