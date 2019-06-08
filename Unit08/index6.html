@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript">
+		function Myfunction() {
+			alert('Page is loaded');
+		}
+		function myblur(x) {
+			var x = document.getElementById('name');
+			x.value = x.value.toUpperCase();
+		}
+		function myfocus(x) {
+			var x = document.getElementById('name');
+			x.style.background = 'red';
+		}
+	</script>
+</head>
+<body onload="Myfunction()">
+	<input type="text" name="" id="name" onblur="myblur(this)" onfocus="myfocus(this)">
+</body>
+</html>

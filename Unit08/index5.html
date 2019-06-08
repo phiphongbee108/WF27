@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript">
+		function vao(x) {
+			x.style.width = '600px';
+			x.style.height = '300px';
+			var text = document.getElementById('text');
+			text.style.color = 'red';
+			var test = document.getElementsByClassName('test')[0];
+			test.style.color = 'pink';
+		}
+		function ra(x) {
+			x.style.width = '400px';
+			x.style.height = '200px';
+			var text = document.getElementById('text');
+			text.style.color = 'black';
+			var test = document.getElementsByClassName('test')[0];
+			test.style.color = 'black';
+		}
+	</script>
+</head>
+<body>
+	<img width="400px" height="200px" src="../img07/header1.jpg" onmouseover="vao(this)" onmouseout="ra(this)">
+	<p id="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, sunt!</p>
+	<p class="test">Lorem ipsum dolor sit amet.</p>
+	<p class="test">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis mollitia, excepturi, a labore debitis sequi?</p>
+</body>
+</html>
