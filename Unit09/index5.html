@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>get Navigation</title>
+</head>
+<body>
+	<h1>the h1</h1>
+	<p>the p 1</p>
+	<p>the p 2</p>
+	<input type="button" name="" value="click me" onclick="myFunction()">
+	<script type="text/javascript">
+		function myFunction() {
+			var h1 = document.getElementsByTagName('h1')[0];
+			h1.parentNode.style.background = 'red';
+			var p = document.getElementsByTagName('p')[0];
+			p.nextElementSibling.style.color = 'blue';
+			var p = document.getElementsByTagName('p')[1];
+			p.previousElementSibling.style.color = 'yellow';
+		}
+	</script>
+</body>
+</html>
